@@ -104,30 +104,30 @@
         <article class="grid_5 prefix_2">
               <h3>Formulario de Contacto</h3>
              
-    <form id="contact-form">
+    <form id="contact-form" action="formulario.php" method="POST">
           <div class="success"> Contact form submitted! <strong>We will be in touch soon.</strong> </div>
           <fieldset>
             <div>
               <label class="name">
-                <input type="text" value="Nombre">
+                <input type="text" value="Nombre" id="nombre" name="nombre">
                 <br>
                 <span class="error">*Nombre no Valido.</span> <span class="empty">*Llene este Campo.</span> </label>
             </div>
             <div>
               <label class="email">
-                <input type="email" value="E-mail">
+                <input type="email" value="E-mail" name="email" id="email">
                 <br>
                 <span class="error">*E-mail no valido.</span> <span class="empty">*Llene este Campo.</span> </label>
             </div>
             <div>
               <label class="phone">
-                <input type="tel" value="Telefono">
+                <input type="tel" value="Telefono" name="telefono" id="telefono">
                 <br>
                 <span class="error">*Telefono no Valido.</span> <span class="empty">*Llene este Campo.</span> </label>
             </div>
             <div>
               <label class="message">
-                <textarea>Mensaje</textarea>
+                <textarea name="mensaje" id="mensaje">Mensaje</textarea>
                 <br>
                 <span class="error">*The message is too short.</span> <span class="empty">*Llene este Campo.</span> </label>
             </div>
