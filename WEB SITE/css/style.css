@@ -67,7 +67,7 @@ top:8px;
 right:39px}
 .box-1  figcaption a:hover{background-position:0 bottom}	
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6,h101 {
 	color:#fff;
 	position:relative;
 	line-height:1em;
@@ -96,6 +96,17 @@ h4 {
 	padding:14px 0 10px;
 	
 }
+h100 {
+	font-size:34px;
+	line-height:24px;
+	color:#ef97cc;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	padding:14px 0 10px;
+	
+}
+h101 {
+	font-size:24px;
+	line-height:34px;}
 h4 a{color:#ef97cc;}
 
 
@@ -234,6 +245,10 @@ opacity: 0.7;
 #nav{overflow:hidden;display:inline-block}
 #nav li{float:left;overflow:hidden;margin:0 10px}
 #nav li a{display:block;background:url(../images/pags.png) no-repeat 0 0;
+width:19px;height:19px;
+line-height:0;font-size:0;
+}
+#nav li j{display:block;background:url(../images/pags.png) no-repeat 0 0;
 width:19px;height:19px;
 line-height:0;font-size:0;
 }
@@ -377,6 +392,13 @@ margin:0 auto;background:url(../images/tail-cont.png);
 .list li a {
 	color:#fff;
 	font-size:14px;	
+	background:url(../images/marker-2.png) no-repeat 1px 5px;	
+	padding:0 0 0 18px;	
+}
+
+.list li y {
+	color:#fff;
+	font-size:19px;	
 	background:url(../images/marker-2.png) no-repeat 1px 5px;	
 	padding:0 0 0 18px;	
 }
