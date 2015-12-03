@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-    <title>Contacts</title>
-    <meta charset="utf-8">
+    <title>Contactenos</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"> 
     <meta name="description" content="Your description">
     <meta name="keywords" content="Your keywords">
     <meta name="author" content="Your name">
@@ -95,49 +95,27 @@
 			Urbanizacion El Recreo,<br>
                 Calle Puerto Rico #123,<br>
                 Trujillo, La Libertad.</dt>
-                <dd> <span>Telefono:</span> +1 800 559 6580 </dd>
-                <dd> <span>Celular:</span> +1 800 603 6035 </dd>
+                <dd> <span>Telefono:</span> +44 669 882 </dd>
+                <dd> <span>Celular: </span> 981 665 268 </dd>
                           
               </dl>
         
          </article>
         <article class="grid_5 prefix_2">
-              <h3>Formulario de Contacto</h3>
+              <h3>Contactenos Aquí</h3>
              
-    <form id="contact-form" action="formulario.php" method="POST">
-          <div class="success"> Contact form submitted! <strong>We will be in touch soon.</strong> </div>
-          <fieldset>
-            <div>
-              <label class="name">
-                <input type="text" value="Nombre" id="nombre" name="nombre">
-                <br>
-                <span class="error">*Nombre no Valido.</span> <span class="empty">*Llene este Campo.</span> </label>
-            </div>
-            <div>
-              <label class="email">
-                <input type="email" value="E-mail" name="email" id="email">
-                <br>
-                <span class="error">*E-mail no valido.</span> <span class="empty">*Llene este Campo.</span> </label>
-            </div>
-            <div>
-              <label class="phone">
-                <input type="tel" value="Telefono" name="telefono" id="telefono">
-                <br>
-                <span class="error">*Telefono no Valido.</span> <span class="empty">*Llene este Campo.</span> </label>
-            </div>
-            <div>
-              <label class="message">
-                <textarea name="mensaje" id="mensaje">Mensaje</textarea>
-                <br>
-                <span class="error">*The message is too short.</span> <span class="empty">*Llene este Campo.</span> </label>
-            </div>
-            <div class="buttons-wrapper"><a class="button" data-type="reset">Limpiar</a><a class="button" data-type="submit">Enviar</a></div>
-          </fieldset>
-        </form>
-<iframe src="http://www.suformulario.com/formulario.php?id=MTUwMTM%3D" style="width:400px;height:500px;background-color:transparent;border-width:0px;" frameBorder="0" ALLOWTRANSPARENCY="true">
-</iframe>
-    
-     </article>
+<form action="for.php" method="post">
+<label for="nombre">Nombre:</label>
+<input id="nombre" type="text" name="nombre" placeholder="Nombre y Apellido" required="" />
+<label for="email">Email:</label>
+<input id="email" type="email" name="email" placeholder="ejemplo@correo.com" required="" />
+<label for="telefono">Telefono:</label>
+<input id="telefono" type="text" name="telefono" placeholder="Telefono" required="" />
+<label for="mensaje">Mensaje:</label>
+<textarea id="mensaje" name="mensaje" placeholder="Mensaje" required=""></textarea>
+<input id="submit" type="submit" name="submit" value="Enviar" />    
+</form>     
+</article>
       </div>
      </div>
   </div>  
