@@ -12,6 +12,7 @@
 .grid_11,
 .grid_100,
 .grid_101,
+.grid_102,
 .grid_12{display:inline;float:left;position:relative;margin:0 10px}
 .alpha{margin-left:0}
 .omega{margin-right:0}
@@ -19,6 +20,8 @@
 .container_12 .grid_100{width:150px}
 .container_12 .prefix_100{padding-left:35px}
 .container_12 .grid_101{width:600px}
+.container_12 .grid_102{width:300px}
+
 
 .container_12 .grid_1{width:60px}
 .container_12 .grid_2{width:140px}
